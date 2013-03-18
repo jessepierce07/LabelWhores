@@ -1,2 +1,53 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="container-fluid">
+	<div id="header">
+		</div>  
+	<h1>Label Whores</h1>
+	<h2>Custom Wine Labels for all Occasions</h2>
+	<br>
+  <%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
+  <strong>Or</strong>
+  <%= link_to "Sign In Now!", new_user_session_path, class: "btn btn-primary btn-large" %>
+	<table id="browse" class="table">
+		<tbody>
+			<td>
+				<a target="_blank" href="static_pages#custom">
+				<div>
+					<img src="/images/IMG_0517.jpg" alt="wine01" width="200px"/>
+					<div id="custom_event_name">
+						The Bachelor Finale: Rose Ceremony </div>
+					<div id="addl_description">
+						Can I interest you in some Sean MerLOWE? </div>
+				</a>
+			</td>
+			<td>
+				<a target="_blank" href="static_pages#custom">
+				<div>
+					<img src="/images/IMG_0518.jpg" alt="wine02" width="200px"/>
+					<div id="custom_event_name">
+						The Bachelorette Finale: Rose Ceremony </div>
+					<div id="addl_description">
+						Emily is the worst. </div>
+				</a>
+			</td>
+			</td>
+			<td>
+				<a target="_blank" href="static_pages#custom">
+				<div>
+					<img src="/images/IMG_0518.jpg" alt="wine02" width="200px"/>
+					<div id="custom_event_name">
+						The Bachelorette Finale: Rose Ceremony </div>
+					<div id="addl_description">
+						Duplicate: Emily is still the worst. </div>
+				</a>
+			</td>
+
+
+
+    <p>
+      You've found the home page for the
+      <%= link_to "LabelWhores", "#" %>
+      custom wine labels site.
+    </p>
+
+
+</div>
